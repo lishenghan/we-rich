@@ -10,7 +10,7 @@
 
 ### Node
 ```bash安装依赖
-npm install we-rich
+npm install we-rich2
 
 const weRich = require('we-rich');
 var nodes = weRich.parse(html);
