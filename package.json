@@ -81,7 +81,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/tans/we-rich.git"
+    "url": "git+https://github.com/tans/we-rich.git"
   },
   "scripts": {
     "build": "gulp build",
@@ -96,5 +96,9 @@
     "ignore": [
       "/docs/dist/**"
     ]
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }
